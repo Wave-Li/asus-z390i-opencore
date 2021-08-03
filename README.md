@@ -5,6 +5,8 @@
 
 ![Monterey](https://img.shields.io/badge/macOS-12.0beta4-brightgreen) ![OpenCore](https://img.shields.io/badge/OpenCore-0.7.1-blue)
 
+![OC](Images/opencore.png)
+
 ![Desktop](Images/desktop-12.0.png)
 
 ![imessage](Images/imessage-12.0.png)

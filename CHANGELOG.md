@@ -28,3 +28,14 @@
 - Restructured into EFI/Boot and EFI/OC
 - Restructured Resources folder - ensure that Themes work, and also added four new Compulsory labels into Resources/Labels
 - Added new flags from 0.69-0.71 in config.plist - the major differences were really in OpenCanopy.
+
+# OC:0.72 MacOS:12.0-beta4 040821 
+- Upgraded to OpenCore 0.72
+- Important: Due to APFS changes, you need to make additional modifications if you have a seperate drive that is booting < BigSur
+- Removed Tools that I do not utilise actively from config.plist.
+- Added misconfiguration whereby CsrScreenshotDxe.efi was present in Drivers but not enabled in config.plist
+- Did not add Fixup due to SMBios. Will look at this again if I have time.
+- Bumped Kexts to newest versions, even though none of the released Kexts in the August update affect us.
+- A nice thing would be if you have a latest 6900 series card which uses a slightly different version of RDNA2 (Navi 21) that was previously unsupported.
+- 6700xt still isnt supported, that's Navi22.
+- All drivers have been updated to the latest versions from the August release.
